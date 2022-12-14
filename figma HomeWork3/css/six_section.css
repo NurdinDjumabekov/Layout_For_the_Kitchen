@@ -1,12 +1,11 @@
 .six_section {
-  height: 80vh;
+  height: 100vh;
   background-color: #000;
 }
 .six_section_main {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   align-items: center;
 }
 .six_section_parent {
@@ -44,10 +43,12 @@
   width: 634px;
   margin-bottom: 80px;
 }
-.six_section_child_end_cards_text {
+.six_section_child_end_cards_text_left,
+.six_section_child_end_cards_text_right {
   width: 412px;
 }
-.six_section_child_end_cards_text > p {
+.six_section_child_end_cards_text_left > p,
+.six_section_child_end_cards_text_right > p {
   font-family: Open Sans;
   font-size: 16px;
   font-style: italic;
@@ -56,14 +57,14 @@
   color: #aaa;
   margin-bottom: 16px;
 }
-.six_section_child_end_cards_text > h4 {
+.six_section_child_end_cards_text_left > h4 {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   color: #dcca87;
   margin-bottom: 4px;
 }
-.six_section_child_end_cards_text > span {
+.six_section_child_end_cards_text_left > span {
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -71,3 +72,20 @@
   color: #f5efdb;
 }
 
+.six_section_child_end_cards_text_right > h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #dcca87;
+  margin-bottom: 4px;
+  text-align: right;
+}
+.six_section_child_end_cards_text_right > span {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #f5efdb;
+  display: block;
+  text-align: right;
+}
