@@ -35,6 +35,7 @@
   max-width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 64px;
 }
 .nine_section_child_center_cards {
   max-width: 412px;
@@ -75,4 +76,11 @@
   line-height: 175%;
   color: #dcca87;
   text-decoration: none;
+}
+.nine_section_child_down {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
 }
